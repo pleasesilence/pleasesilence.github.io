@@ -1,0 +1,128 @@
+@media(max-width: 1440px) {
+    .promo__illustration {
+        right: 40%;
+    }
+
+    .promo__content__item {
+        max-width: 350px;
+    }
+
+    .promo img {
+        width: 65%;
+    }
+
+    .ways {
+        margin-top: 0;
+    }
+}
+
+@media(max-width: 1200px) {
+    .basics-item {
+        flex-direction: column;
+    }
+    .basics-item img {
+        display: none;
+    }
+    .basics__title {
+        margin-bottom: 20px;
+    }
+    .basics {
+        max-height: none;
+    }
+}
+
+@media(max-width: 1024px) {
+    .promo__illustration {
+        display: block;
+        top: 70%;
+        left: -10%;
+        right: none;
+    }
+    .promo img {
+        width: 400px;
+    }
+    .promo__content {
+        flex-direction: column;
+        align-items: center;
+        gap: 400px;
+    }
+    .hamburger {
+        display: block;
+        padding: 0;
+    }
+
+    .promo__content__item {
+        max-width: none;
+    }
+    .menu {
+        justify-content: space-between;
+    }
+    .menu__item {
+        display: none;
+    }
+    .menu__item_icon {
+        display: block;
+    }
+    .ways__items {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .ways__item {
+        max-width: none;
+    }
+    .questions-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .promo__illustration {
+        display: none;
+    }
+    .promo__content {
+        gap: 30px;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .container {
+        padding: 0px 50px;
+    }
+    .title span:after {
+        display: none;
+    }
+    .arrow {
+        display: none;
+    }
+    .carousel {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .basics-item {
+        display: block;
+        max-width: none;
+        height: 100%;
+    }
+    .question__item {
+        width: 90%;
+    }
+    .modal {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 0px 10px;
+    }
+    .menu__item_icon {
+        font-size: 30px;
+    }
+    .hamburger img {
+        height: 30px;
+        width: 30px;
+    }
+}

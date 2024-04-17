@@ -1,0 +1,30 @@
+.ways {
+    margin-top: 134px;
+    min-height: 800px;
+    padding: 70px 0px 70px 0px;
+}
+
+.ways__title {
+    width: 100%;
+}
+
+.text-center {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1285px;
+}
+
+.ways__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 65px;
+}
+
+.ways__item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 355px;
+    position: relative;
+}

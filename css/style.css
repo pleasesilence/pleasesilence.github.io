@@ -1,0 +1,40 @@
+@import '_bootstrap-reboot.min.css';
+
+@import '_objects.css';
+@import '_animations.css';
+
+@import '_promo.css';
+@import '_ways.css';
+@import '_basics.css';
+@import '_test.css';
+@import '_footer.css';
+
+
+/* @import '_updates.css'; */
+
+@import '_media.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+}
+
+img {
+    user-select: none;
+}
+
+button {
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+/* body {
+    overflow-x: hidden;
+} */
+
