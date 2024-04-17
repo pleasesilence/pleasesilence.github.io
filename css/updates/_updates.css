@@ -1,0 +1,37 @@
+.header_updates {
+    position: static;
+}
+
+.title_updates {
+    margin: 20px 0px 10px 0px;
+}
+
+.subtitle_updates {
+    line-height: 26px;
+}
+
+.devider {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.updates-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.updates-item {
+    display: flex;
+    flex-direction: column;
+    border: #70A0BF solid 1px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    max-width: 30%;
+    gap: 10px;
+    transition: 0.5s all;
+}
+
+.updates-list__item {
+    margin-bottom: 0;
+}

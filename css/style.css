@@ -1,0 +1,40 @@
+@import '../css/_bootstrap-reboot.min.css';
+
+@import '../css/_objects.css';
+@import '../css/_animations.css';
+
+@import '../css/promo/_promo.css';
+@import '../css/promo/_ways.css';
+@import '../css/promo/_basics.css';
+@import '../css/promo/_test.css';
+@import '../css/promo/_footer.css';
+
+
+@import '../css/updates/_updates.css';
+
+@import '../css/_media.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+}
+
+img {
+    user-select: none;
+}
+
+button {
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+/* body {
+    overflow-x: hidden;
+} */
+

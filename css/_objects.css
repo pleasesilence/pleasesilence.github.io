@@ -1,0 +1,266 @@
+.container {
+    padding: 0px 70px
+}
+
+.menu {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding: 25px 0px;
+    transition: 1s all;
+}
+
+.menu__item {
+    font-size: 20px;
+    transition: 1s all;
+}
+
+.menu__item_icon {
+    transition: 1s all;
+    font-size: 40px;
+}
+
+.menu__item:hover {
+    color: #70A0BF;
+}
+
+.menu_mod {
+    padding: 10px 0px;
+}
+
+.menu__item_mod {
+    font-size: 30px;
+}
+
+.text {
+    font-size: 20px;
+    color: #232323;
+}
+
+.text_data {
+    line-height: 20px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.title {
+    color: #232323;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 86px;
+    margin-bottom: 55px;
+    text-align: center;
+}
+
+.title span {
+    color: #70A0BF;
+    font-style: italic;
+    font-weight: 600;
+    position: relative;
+}
+
+.title span:after {
+    content: url(../pages/promo/img/vector.svg);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 32px;
+    left: 35%;
+    transform: translateX(-50%);
+}
+
+.subtitle {
+    font-size: 26px;
+    font-weight: 600;
+    color: #70A0BF;
+}
+
+.subtitle_big {
+    color:#232323;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.overlay {
+    z-index: 1;
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.50);
+    top: 0;
+}
+
+.modal {
+    transition: 0.5s all;
+    z-index: 2;
+    border-radius: 5px;
+    display: none;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    padding: 30px 20px 20px 20px;
+    background-color: #ffffff;
+    transform: translate(-50%,-50%);
+    min-height: 300px;
+    width: 500px;
+    position: fixed;
+}
+
+.modal {
+    min-height: auto;
+}
+
+.modal__title {
+    color: #232323;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.modal__title span {
+    color:#70A0BF;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.modal__text {
+    color: #232323;
+    font-size: 18px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.modal-list {
+    margin-bottom: 2rem;
+}
+
+.modal-list__item {
+    font-size: 18px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    position: relative;
+}
+
+.modal-list__item::before {
+    content: " ";
+    position: absolute;
+    background-color: #70A0BF;
+    height: 5px;
+    width: 5px;
+    left: -15px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+.modal_updates .btn:hover {
+    color:#70A0BF
+}
+
+.modal .devider {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: lightgrey;
+    left: 0px;
+    bottom: 65px;
+}
+
+.modal_active {
+    display: block;
+}
+
+.btn {
+    font-size: 18px;
+    color: #232323;
+    display: block;
+    text-align: center;
+    border: none;
+    transition: 0.3s all;
+}
+
+.btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 0px 20px;
+}
+
+.btn_page-up {
+    display: none;
+    padding: 8px 16px;
+    transition: 0.5s all;
+    border: 1px solid #232323;
+    background-color: #fff;
+    border-radius: 50%;
+    position: fixed;
+    color:#232323;
+    bottom: 50px;
+    right: 50px;
+}
+
+.btn_page-up_active {
+    display: block;
+}
+
+.btn_page-up:hover {
+    border-color: #70A0BF;
+    color:#70A0BF;
+}
+
+.menu-list {
+    display: none;
+    top: 100px;
+    padding: 10px 20px;
+    position: absolute;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    gap: 5px;
+    border-radius: 15px;
+    border: solid 1px #232323;
+}
+
+.menu-list__item {
+    transition: 1s all;
+    font-size: 18px;
+}
+
+.menu-list__item:hover {
+    color: #70A0BF;
+}
+
+.prompt_active {
+    display: flex;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger-list {
+    padding-top: 120px;
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100px;
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(2px);
+    gap: 20px;
+}
+
+.hamburger-list_active {
+    display: flex;
+}
